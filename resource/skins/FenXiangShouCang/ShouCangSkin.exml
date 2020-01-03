@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class = "ShouCangSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Component skinName="BG2" width="100%" x="1"/>
+	<e:Image source="img_shouchangBg_png" horizontalCenter="4.5" verticalCenter="-86.5"/>
+	<e:Button id="ShouCang" label="立 即 收 藏" icon="ui_bm_zhuabu" scaleX="1" scaleY="1" y="714.8" skinName="Btn2Skin" horizontalCenter="0" width="200" height="78" touchEnabled="true"/>
+	<e:Button id="closeBtn" icon="ui_btn_guanbi" y="281.71" touchEnabled="true" skinName="CloseBtn" scaleX="1" scaleY="1" horizontalCenter="267.5"/>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BtnTab5Skin" states="up,down,disabled" currentState="up" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width.down="155" height.down="105" width.up="152" height.up="103">
+	<e:Image source.up="ui_yyhd_bt_btn2" source="ui_yyhd_bt_btn2" source.disabled="ui_yyhd_bt_btn2" source.down="ui_yyhd_bt_btn1" anchorOffsetY.down="0" height.down="105" anchorOffsetX.down="0" width.down="155" verticalCenter.down="0" horizontalCenter.down="0" left.up="0" top.up="0" right.up="0" bottom.up="0" horizontalCenter.up="0" left="0" right="0" horizontalCenter="0" top="0" bottom="0" width.up="152" height.up="103" width.disabled="152" height.disabled="103"/>
+
+	<e:Image id="redPoint" touchEnabled="false"  x="119.67" source="ui_bm_reddot" y="-0.67" visible.down="false" visible.disabled="false" visible.up="false" visible="false"/>
+	<e:Label  id="labelDisplay" size="24" anchorOffsetX.up="0" anchorOffsetY.up="0" horizontalCenter="0" verticalAlign="middle" textColor="0x6e330b"  textColor.disabled="0x755e4f" textColor.down="0xae4212"  style="l_brown_1" text="{data}" textAlign="center" lineSpacing="4" textColor.up="0xae4212" horizontalCenter.down="0" verticalCenter.down="0" anchorOffsetY="0" verticalCenter="0.5" fontFamily="Microsoft YaHei" top.up="0" bottom.up="0"/>
+</e:Skin>

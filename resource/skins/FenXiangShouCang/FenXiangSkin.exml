@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class = "FenXiangSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Component skinName="BG2" width="100%" x="1"/>
+	<e:Image source="img_fenXiangBg_png" horizontalCenter="-3.5" verticalCenter="-101.5"/>
+	<e:Button id="FenXiang" label="立即分享" icon="ui_bm_zhuabu" scaleX="1" scaleY="1" y="713.3" skinName="Btn2Skin" horizontalCenter="0" width="200" height="78" touchEnabled="true"/>
+	<e:Button id="closeBtn" icon="ui_btn_guanbi" y="284.75" touchEnabled="true" skinName="CloseBtn" scaleX="1" scaleY="1" right="102" x="644"/>
+</e:Skin>

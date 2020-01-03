@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="common_loading" width="750" height="1700" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.5" locked="true"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group x="180" y="57">
+			<e:Rect id="r1" width="20" height="20" x="0" y="0" fillColor="0xffffff" ellipseHeight="20" ellipseWidth="20" fillAlpha="0.1" scaleX="0.6" scaleY="0.6"/>
+			<e:Rect id="r2" width="20" height="20" x="54" y="0" fillColor="0xFFFFFF" ellipseHeight="20" ellipseWidth="20" fillAlpha="0.1" scaleX="0.7" scaleY="0.7"/>
+			<e:Rect id="r3" width="20" height="20" x="94" y="0" fillColor="0xFFFFFF" ellipseHeight="20" ellipseWidth="20" fillAlpha="0.1" scaleX="0.8" scaleY="0.8"/>
+			<e:Rect id="r4" width="20" height="20" x="125" y="0" fillColor="0xFFFFFF" ellipseHeight="20" ellipseWidth="20" fillAlpha="0.1" scaleX="0.9" scaleY="0.9"/>
+			<e:Rect id="r5" width="20" height="20" x="160" y="0" fillColor="0xFFFFFF" ellipseHeight="20" ellipseWidth="20" fillAlpha="0.1"/>
+			<e:layout>
+			<e:HorizontalLayout gap="10" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Label text="{msg}" y="0" anchorOffsetX="0" width="480" anchorOffsetY="0" height="36" size="20" fontFamily="Microsoft YaHei" verticalAlign="middle" textAlign="center" x="0"/>
+	</e:Group>
+</e:Skin>

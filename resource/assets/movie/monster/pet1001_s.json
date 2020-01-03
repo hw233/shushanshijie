@@ -1,0 +1,11 @@
+{"width":512,"imagePath":"m1-2_tex.png","height":256,"name":"m1-2","SubTexture":
+    [
+        {"width":100,"y":1,"height":105,"name":"1_0006_test0006.png","x":103},
+        {"width":100,"y":108,"height":105,"name":"1_0001_test0001.png","x":103},   
+        {"width":100,"y":108,"height":105,"name":"1_0000_test0000.png","x":1},
+        {"width":100,"y":1,"height":105,"name":"1_0003_test0003.png","x":1},
+        {"width":100,"y":1,"height":105,"name":"1_0005_test0005.png","x":307},
+        {"width":100,"y":1,"height":105,"name":"1_0002_test0002.png","x":205},
+        {"width":100,"y":108,"height":105,"name":"1_0004_test0004.png","x":205}
+    ]
+}

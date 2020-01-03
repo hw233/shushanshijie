@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipIconSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="icon" anchorOffsetX="0" top="0" bottom="0" left="0" right="0" source="ui_bt_vip01"/>
+	<e:Group horizontalCenter="23.5" verticalCenter="2.5" bottom="4" top="9" left="48" right="1" height="22">
+		<e:BitmapLabel id="vipLabel" text="20" scaleX="1" scaleY="0.8" anchorOffsetX="0" font="font_ui_vip_fnt" verticalCenter="-1" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

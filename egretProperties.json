@@ -1,0 +1,56 @@
+{
+  "engineVersion": "5.2.31",
+  "compilerVersion": "5.2.31",
+  "template": {},
+  "target": {
+    "current": "android"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "dragonBones"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "path": "../libEx/jszip",
+      "name": "jszip"
+    },
+    {
+      "path": "../libEx/ceui",
+      "name": "ceui"
+    },
+    {
+      "path": "../libEx/talkingdata",
+      "name": "talkingdata"
+    },
+    {
+      "path": "../libEx/quicksdk",
+      "name": "quicksdk"
+    }
+  ],
+  "targets": {
+    "android": {
+      "appname": "shushanshijie",
+      "packagename": "com.shushanshijie.jy"
+    }
+  }
+}

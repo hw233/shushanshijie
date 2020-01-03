@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleItemSkin" width="110" height="105" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<ns1:ItemBase id="itemBase" touchEnabled="false" touchChildren="false"/>
+	<e:Image id="redPoint" width="32" height="31" x="77" y="1" source="ui_bm_reddot" visible="false"/>
+	<e:Image id="bless" anchorOffsetX="0" anchorOffsetY="0" source="" y="-4" x="-2" visible="false"/>
+	<e:Image id="upImage" x="20" y="18" rotation="180" anchorOffsetX="17" width="35" height="32" anchorOffsetY="16" scaleX="0.8" scaleY="0.8" source="ui_sjdt_bm_jiantou" visible="false"/>
+</e:Skin>

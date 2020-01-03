@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<ns1:CommonDialog width="680" height="1032" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="ui_bh_bm_dikuang" scale9Grid="0,30,720,27" x="26" y="230" anchorOffsetX="0" width="262" anchorOffsetY="0" height="752"/>
+	<e:Image source="ui_bh_bm_dikuang" scale9Grid="0,30,720,27" x="278" y="228" anchorOffsetX="0" width="436" anchorOffsetY="0" height="754"/>
+</e:Skin>

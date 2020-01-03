@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normal"  width="320" height="204">
+	<w:Config id="1633e92cf14"/>
+	<e:Image source="ui_cz_bm_wupingdiban" horizontalCenter="0" verticalCenter="0" locked="true"/>
+	<e:Image id="centreImage" source="cash2009" horizontalCenter="0" verticalCenter="-6"/>
+	<e:Group id="SCGroup" x="0" y="0" width="320" height="204" touchEnabled="false">
+		<e:Image id="tipsImg" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="ui_cz_bm_zengsong"/>
+		<e:Group right="-40" bottom="50">
+			<e:Image source="ui_cz_bm_zengsong02" scaleX="1" scaleY="1" x="51" y="-3"/>
+			<e:Group y="35" horizontalCenter="36">
+			<e:Label text="300000" x="26" y="-1" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" size="20" verticalAlign="middle" style="l_yellow_2" strokeColor="0xA50808"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group right="-40" bottom="50">
+			<e:Image source="ui_cz_bm_zengsong02" scaleX="1" scaleY="1" x="51" y="-3"/>
+			<e:Group y="35" horizontalCenter="36">
+				<e:Label id="SCZSTxt" text="0" x="26" y="-1" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" size="20" verticalAlign="middle" style="l_yellow_2" strokeColor="0xa50808" textColor.normal="0xfce5c4"/>
+				<e:layout>
+					<e:HorizontalLayout gap="0"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:BitmapLabel id="ybTxt" y="9" text="120元宝" font="font_ui_chongzhi_fnt" horizontalCenter="2.5"/>
+	<e:BitmapLabel id="RMBTxt" y="160" text="6元" font="font_ui_chongzhi_fnt" horizontalCenter="-4"/>
+	<e:BitmapLabel id="otherTxt" y="125" font="font_ui_chongzhi_fnt" text="额外赠送" horizontalCenter="0" visible="false"/>
+</e:Skin>

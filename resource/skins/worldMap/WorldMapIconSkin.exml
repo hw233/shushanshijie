@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorldMapIconSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="200" states="up,down"  height="600">
+	<e:Group touchChildren="true" touchEnabled="false" left="0" top="0" width="200" height="600">
+		<e:Image id="imgIcon" source="mapicon_1" touchEnabled="true" top="0" left="0"/>
+		<e:Group id="userGroup" y="330" scaleX="1.3" scaleY="1.3" horizontalCenter="-0.5">
+			<e:Image width="78" height="88" x="0" y="0" source="ui_sjdt_bm_yuan"/>
+			<e:Image width="54" height="56" x="10" y="10" source="ui_sjdt_bm_touxiang"/>
+		</e:Group>
+		<e:Group id="nameGroup" x="138" y="58" anchorOffsetX="0" width="40">
+			<e:Label id="iconName" text="东海龙宫" style="l_white" textAlign="center" anchorOffsetX="0.13" anchorOffsetY="2.54" width="28" height="132" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Image id="clearanceTip" source="ui_fb_bm_yitongguang" x="39" y="452" touchEnabled="false"/>
+		<e:Group id="prize" x="36" y="414" touchThrough="true" touchEnabled="false" touchChildren="true">
+			<e:Image id="imgBox" source="ui_fb_bm_baoxiang02" x="0" y="0" scaleX="1" scaleY="1" touchEnabled="true"/>
+			<e:Image id="redPoint" y="4" x="57" source="ui_bm_reddot" visible="false"/>
+		</e:Group>
+		<e:Group id="newGroup" x="6" y="345" scaleX="1" scaleY="1">
+			<e:Image source="ui_sjdt_bm_xinjiesuo" x="0" y="0"/>
+			<e:Image id="imgArr" source="ui_sjdt_bm_jiantou" x="77" y="62"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

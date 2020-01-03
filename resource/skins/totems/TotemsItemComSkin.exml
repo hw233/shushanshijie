@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TotemsItemComSkin" width="126" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   states="open,lock"  height="126">
+	<w:Config id="15e5a38ef42" ></w:Config>
+	<e:Group id="iconGroup" x="0" y="0" anchorOffsetX="0" width="126" anchorOffsetY="0" height="126">
+		<e:Image id="img_icon" includeIn="open" blendMode="normal" source="ui_head_tuten_05" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ui_bm_jinengkuang" y="15" horizontalCenter="0" visible="false"/>
+		<e:Image id="img_select" includeIn="open" source="ui_bm_jinengxuanzhekuang" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="redPoint" source="ui_bm_reddot" x="79" y="9" visible="false"/>
+	</e:Group>
+</e:Skin>

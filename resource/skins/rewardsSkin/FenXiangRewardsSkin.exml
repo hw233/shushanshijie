@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class = "FenXiangRewardsSkin" width="471" height="151" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="fenxiangSucess">
+			<tween:TweenItem target="{image}"/>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image id="image" width="471" height="96" anchorOffsetY="0" source="ui_zd_bm_tishibg" horizontalCenter="-1" verticalCenter="0"/>
+	<e:Label id="itemName" text="恭喜获得4888绑元ヾ(o´∀｀o)ﾉ " style="l_yellow_4" size="26" textColor="0xfcfbef" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

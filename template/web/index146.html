@@ -1,0 +1,378 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Egret</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+    <script src="//test.client.pt.5wanpk.cn/js/sdkh5ccl.js?v==111"></script>
+
+    </head>
+    <div
+        style="margin: auto;width: 100%;height: 100%;" 
+        class="egret-player" 
+        data-entry-class="Main" 
+        data-orientation="auto" 
+        data-scale-mode="showAll" 
+        data-frame-rate="30" 
+        data-show-paint-rect="false"
+        data-content-width="720" 
+        data-content-height="1280" 
+        data-multi-fingered="2" 
+        data-show-fps="false" 
+        data-show-log="false"
+        data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.2">
+
+    <div id="bgimgbg">
+    <div id="bgimg">
+    <div id="loader">
+            <div class="loader-inner ball-spin-fade-loader">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            </div>
+            <div id="load_text">正在加载...</div>	
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <style>
+        #bgimgbg{
+            height: 100%;
+            width: 100%;
+        }
+
+        #bgimg{
+            overflow: hidden;
+            background-image: url(/resource/assets/game_start/ui_xzfwq_p_show.jpg);
+            background-position:top center;
+            background-size:100% 100%;  
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            display: -webkit-flex;
+            -webkit-justify-content:center;
+            justify-content:center;
+            -webkit-align-items:center;
+            align-items:center;
+        }
+
+        .loader-inner{
+            left: 50%;
+            height: 5rem;
+        }
+        #load_text{
+            width: 100%;
+            text-align: center;
+            color: #ffffff;
+            font-size:1rem;
+            text-shadow:#000000 1px 1px;
+        }
+        @-webkit-keyframes ball-spin-fade-loader {
+        50% {
+            opacity: 0.3;
+            -webkit-transform: scale(0.4);
+                    transform: scale(0.4); }
+
+        100% {
+            opacity: 1;
+            -webkit-transform: scale(1);
+                    transform: scale(1); } }
+
+        @keyframes ball-spin-fade-loader {
+        50% {
+            opacity: 0.3;
+            -webkit-transform: scale(0.4);
+                    transform: scale(0.4); }
+
+        100% {
+            opacity: 1;
+            -webkit-transform: scale(1);
+                    transform: scale(1); } }
+
+        .ball-spin-fade-loader {
+        position: relative; }
+        .ball-spin-fade-loader > div:nth-child(1) {
+            top: 25px;
+            left: 0;
+            -webkit-animation: ball-spin-fade-loader 1s 0s infinite linear;
+                    animation: ball-spin-fade-loader 1s 0s infinite linear; }
+        .ball-spin-fade-loader > div:nth-child(2) {
+            top: 17.04545px;
+            left: 17.04545px;
+            -webkit-animation: ball-spin-fade-loader 1s 0.12s infinite linear;
+                    animation: ball-spin-fade-loader 1s 0.12s infinite linear; }
+        .ball-spin-fade-loader > div:nth-child(3) {
+            top: 0;
+            left: 25px;
+            -webkit-animation: ball-spin-fade-loader 1s 0.24s infinite linear;
+                    animation: ball-spin-fade-loader 1s 0.24s infinite linear; }
+        .ball-spin-fade-loader > div:nth-child(4) {
+            top: -17.04545px;
+            left: 17.04545px;
+            -webkit-animation: ball-spin-fade-loader 1s 0.36s infinite linear;
+                    animation: ball-spin-fade-loader 1s 0.36s infinite linear; }
+        .ball-spin-fade-loader > div:nth-child(5) {
+            top: -25px;
+            left: 0;
+            -webkit-animation: ball-spin-fade-loader 1s 0.48s infinite linear;
+                    animation: ball-spin-fade-loader 1s 0.48s infinite linear; }
+        .ball-spin-fade-loader > div:nth-child(6) {
+            top: -17.04545px;
+            left: -17.04545px;
+            -webkit-animation: ball-spin-fade-loader 1s 0.6s infinite linear;
+                    animation: ball-spin-fade-loader 1s 0.6s infinite linear; }
+        .ball-spin-fade-loader > div:nth-child(7) {
+            top: 0;
+            left: -25px;
+            -webkit-animation: ball-spin-fade-loader 1s 0.72s infinite linear;
+                    animation: ball-spin-fade-loader 1s 0.72s infinite linear; }
+        .ball-spin-fade-loader > div:nth-child(8) {
+            top: 17.04545px;
+            left: -17.04545px;
+            -webkit-animation: ball-spin-fade-loader 1s 0.84s infinite linear;
+                    animation: ball-spin-fade-loader 1s 0.84s infinite linear; }
+        .ball-spin-fade-loader > div {
+            background-color: #fff;
+            width: 15px;
+            height: 15px;
+            border-radius: 100%;
+            margin: 2px;
+            -webkit-animation-fill-mode: both;
+                    animation-fill-mode: both;
+            position: absolute; }
+    </style>
+
+    <script type="text/javascript">
+	//游戏ID
+    var SDKAPPID = 197;
+    //SDK载入
+    var __REC__ = SDKH5CCLUTIL; //关闭使用SDK请赋值false
+	//0为h5,1为小程序,2为玩吧,3为IOS,4为玩一玩,5为安卓
+    var TYPE_NUM = 0;
+	//获取code
+    var code = SDKH5CCL.getQueryString("code")
+    //是否使用图集
+	var TEST_LOAD_ATLAS = false;
+	var closeError = true;
+	var __LOCAL_RES__ = 2
+	var verData = {}
+	var nameDict = {}
+    var __CONFIG__ = {
+		"__SER_URL__": "192.168.1.146",
+		"__PLATFORM_ID__": 99999,
+		"__RES_URL__": this.window.location.href.substring(0, this.window.location.href.lastIndexOf("index.html")),
+		"__CLIENT_CONFIG__": 10,
+		"__GAME_ID__": 6,
+      	"__MIN_LEVER__": 14,
+      	"__NEW_SERVER_ID__": {id: 5202, name: "测试2区", ip: "192.168.1.146:5202", status: 2, version: 1},
+		__ServerNameFunc__: function (id) {
+			return nameDict[id]
+		},
+	}
+    // 使用本地的服务器列表
+	var IsLocalIPList = true
+    //调试服务器ip列表
+	var serverList = [
+        "测试4区|192.168.1.146:5204|204",
+		"测试3区|192.168.1.146:5203|203",
+      	"测试2区|192.168.1.146:5202|202",
+		"测试1区|192.168.1.146:5201|201",
+	];
+    // var config = {
+    //     "SER_URL":"47.102.40.228",
+    //     "PLATFORM_ID":99999
+    // };
+    </script>
+
+<body>
+
+<script>
+
+
+    var loadScript = function (list, callback) {
+        var loaded = 0;
+        var loadNext = function () {
+            loadSingleScript(list[loaded], function () {
+                loaded++;
+                if (loaded >= list.length) {
+                    callback();
+                }
+                else {
+                    loadNext();
+                }
+            })
+        };
+        loadNext();
+    };
+    
+    var loadSingleScript = function (src, callback) {
+        var s = document.createElement('script');
+        s.async = false;
+        s.src = src;
+        s.addEventListener('load', function () {
+            s.parentNode.removeChild(s);
+            s.removeEventListener('load', arguments.callee, false);
+            callback();
+        }, false);
+        document.body.appendChild(s);
+    };
+    if(code){
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', './manifest.json?v=' + Math.random(), true);
+        xhr.addEventListener("load", function () {
+            var manifest = JSON.parse(xhr.response);
+            var list = manifest.initial.concat(manifest.game);
+            loadScript(list, function () {
+                egret.runEgret({ renderMode: "webgl", audioType: 0, calculateCanvasScaleFactor:function(context) {
+                    var backingStore = context.backingStorePixelRatio ||
+                        context.webkitBackingStorePixelRatio ||
+                        context.mozBackingStorePixelRatio ||
+                        context.msBackingStorePixelRatio ||
+                        context.oBackingStorePixelRatio ||
+                        context.backingStorePixelRatio || 1;
+                    return (window.devicePixelRatio || 1) / backingStore;
+                }});
+            });
+        });
+        xhr.send(null);
+    }else{
+        elselogin();	
+    }
+	function elselogin(){
+		window["__REC__"].APPID = window["SDKAPPID"];
+		window["__REC__"].LGOIN();	
+	}
+    //适应屏幕method
+	function __CalcScreen() {
+		var bgimgbg = document.getElementById("bgimgbg")
+		if (!bgimgbg) {
+			return
+		}
+		var myimg = document.getElementById("bgimg");
+		if (!myimg || !bgimgbg) {
+			return
+		}
+		let rect = bgimgbg.getBoundingClientRect()
+		let screenWidth = rect.width
+		let screenHeight = rect.height
+		var ratio = screenWidth / screenHeight
+		if (ratio < 0.5) {
+			var scaleX = (screenWidth / 720) || 0;
+			displayHeight = Math.round(1440 * scaleX); 
+		} else {
+			displayHeight = screenHeight
+		}
+		var displayWidth = Math.floor(displayHeight / 4 * 3)
+		myimg.style.width = displayWidth + "px";
+		myimg.style.height = displayHeight + "px";
+		myimg.style.top = ((screenHeight - displayHeight) >> 1) + "px";
+		myimg.style.left = ((screenWidth - displayWidth) >> 1) + "px";
+	}
+	//监听resize
+	window.addEventListener("resize", __CalcScreen);
+	__CalcScreen()
+    //移除背景
+	function __RemoveBg() {
+		var myimg = document.getElementById("bgimgbg");
+		if (!myimg) {
+			return
+		}
+		myimg.parentElement.removeChild(myimg)
+		window.removeEventListener("resize", __CalcScreen);
+	}
+
+    //移除圈圈
+	function __RemoveLoading() {
+		var myloading = document.getElementById("loader");
+		if (!myloading) {
+			return
+		}
+		myloading.parentElement.removeChild(myloading)
+	}
+
+    //设置区服
+	function __override__(isnew) {
+		if (!window["IsLocalIPList"]) {
+			return
+		}
+		var list = []
+		var startId = 100
+		for (var i = 0; i < serverList.length; ++i) {
+			var str = serverList[i]
+			var strData = str.split("|")
+			var serverid = startId--;
+			if (strData[2]) {
+				serverid = Number(strData[2])
+			}
+			var t = egret.localStorage.getItem("__server_id__(" + serverid + ")")
+			nameDict[serverid] = strData[0]
+			list.push({
+				version: 1,
+				status: 2,
+				sid: serverid,
+				addr: strData[1],
+				time: t ? Number(t) : serverid,
+				job: (Math.floor(i / 2) % 3) + 1,
+				sex: i % 2,
+				//name: "测试" + i,
+			})
+		}
+		var serData = {
+			data: {
+				player: { username: "", gm_level: 100, lid: "3_51"},
+				maxid: serverList.length,
+				ns: 0,
+              	isnew: isnew,
+				lpage: list,
+				recent: list.slice(),
+			},
+			result_msg: "",
+			status_msg: "",
+			status: 1,
+			result: 1,
+		}
+		HttpHelper.GetPlayerServerInfo = function (token, callback, thisObject) {
+			serData.data.player.username = token
+			callback.call(thisObject, {
+				currentTarget: {
+					response: JSON.stringify(serData)
+				}
+			})
+		};
+		HttpHelper.GetServerList = function () {
+
+		}
+		var func = Main.prototype.StartLoadGame
+		Main.prototype.StartLoadGame = function (serverData) {
+			func.call(this, serverData)
+			egret.localStorage.setItem("__server_id__(" + serverData.id + ")", new Date().getTime());
+		}
+	}
+    
+</script>
+</body>
+
+</html>

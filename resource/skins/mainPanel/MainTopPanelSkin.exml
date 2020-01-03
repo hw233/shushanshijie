@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MainTopPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="162615bd395" visible="false"/>
+<!-- 	<e:Image source="图层 55" x="0" y="0" width="0" height="0" touchEnabled="false" />
+	<e:Image source="图层 245" x="0" y="0" width="0" height="0" touchEnabled="false" />
+	<e:Image source="图层 112" x="0" y="0" width="0" height="0" touchEnabled="false" /> -->
+	<e:Image y="-2" width="100%" touchEnabled="false"  source="ui_bm_text_bg3-33" x="0"/>
+	<e:Group y="4" anchorOffsetX="0" anchorOffsetY="0" left="7" right="0">
+		<e:Button id="god" x="-41" y="0" scaleX="1" scaleY="1" skinName="MainTopPanelItemSkin" icon="ui_bm_qianb2" label="0"/>
+		<e:Button id="yb" x="202" y="0" scaleX="1" scaleY="1" skinName="MainTopPanelItemSkin" icon="ui_bm_qianb1" label="0"/>
+		<e:Button id="byb" x="440" y="0" scaleX="1" scaleY="1" skinName="MainTopPanelItemSkin" icon="ui_bm_qianb3" label="0"/>
+		<e:layout>
+		<e:TileLayout requestedColumnCount="3" columnAlign="justifyUsingWidth"/>
+		</e:layout>
+	</e:Group>
+	<e:Group left="0" right="0" y="50.5">
+		<e:ProgressBar id="expBar" height="15" anchorOffsetX="0" anchorOffsetY="0" value="100" scaleX="1" scaleY="1" skinName="bar1Skin" verticalCenter="0" left="0" right="0"/>
+		<e:Label id="expBarLabel" text="88888888/55555555" size="15" textAlign="center" strokeColor="0x000000" stroke="2" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" style="l_white" textColor="0xE6F1F4" verticalCenter="0" left="0" right="0"/>
+	</e:Group>
+	
+</e:Skin>

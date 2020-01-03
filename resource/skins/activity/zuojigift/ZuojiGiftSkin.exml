@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZuojiGiftSkin" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing" states="normal,full,none" width="904.85" height="1280">
+	<w:Config id="1628afab306" />
+	<e:Component skinName="BG2" horizontalCenter="0"/>
+	<e:Image y="282" horizontalCenter="-53.92500000000001" source="ui_xn_bm_d"/>
+	<e:Button id="closeBtn" y="368.33" skinName="Btn0Skin" icon="ui_xn_bt_gb" horizontalCenter="330.075"/>
+	<e:Group width="652" height="647.24" y="215.41" anchorOffsetY="0" anchorOffsetX="0" touchEnabled="false" horizontalCenter="73.57499999999999">
+		<e:Group width="649" height="372.3" x="1" y="59.6" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+			<e:Image y="121" source="" horizontalCenter="0"/>
+			<ns1:PowerLabel id="powerLabel" y="8" x="119" scaleX="1" scaleY="1" skinName="PowerLabel3Skin"  visible="false"/>
+			<ns1:PetShowPanel id="xingxiang" y="151.36"  scaleX="-1" x="334" visible="false"/>
+			<e:Group y="356.77" horizontalCenter="0.5">
+				<e:List id="skillList" anchorOffsetX="0" anchorOffsetY="0" y="-81.98" itemRendererSkinName="HavingSkillIconSkin" scaleX="0.9" scaleY="0.9" horizontalCenter="9.5" width="616.22" visible="false">
+					<e:ArrayCollection>
+					<e:Array>
+						<e:Object x="null"/>
+						<e:Object x="null"/>
+						<e:Object x="null"/>
+						<e:Object x="null"/>
+						<e:Object x="null"/>
+						<e:Object x="null"/>
+					</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+					<e:HorizontalLayout gap="9.3"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+			<e:Group anchorOffsetX="0" anchorOffsetY="0" x="59.83" y="277.33" visible="false">
+				<e:Group x="0" y="0">
+					<e:Image id="icon_0" width="80" height="80" y="0" source="resource/assets/image/item_single/ui_icon_item_4203.png" x="0"/>
+					<e:Label id="count_0" text="99999" size="18" touchEnabled="false" stroke="2" textAlign="right" anchorOffsetX="0" width="71" scaleX="1" scaleY="1" horizontalCenter="1.5" verticalCenter="28"/>
+				</e:Group>
+				<e:Group x="10" y="10">
+					<e:Image id="icon_1" width="80" height="80" y="0" source="resource/assets/image/item_single/ui_icon_item_4203.png" x="0"/>
+					<e:Label id="count_1" text="99999" size="18" touchEnabled="false" stroke="2" textAlign="right" anchorOffsetX="0" width="71" scaleX="1" scaleY="1" horizontalCenter="1.5" verticalCenter="28"/>
+				</e:Group>
+				<e:Group x="20" y="20">
+					<e:Image id="icon_2" width="80" height="80" y="0" source="resource/assets/image/item_single/ui_icon_item_4203.png" x="0"/>
+					<e:Label id="count_2" text="99999" size="18" touchEnabled="false" stroke="2" textAlign="right" anchorOffsetX="0" width="71" scaleX="1" scaleY="1" horizontalCenter="1.5" verticalCenter="28"/>
+				</e:Group>
+				<e:Group x="30" y="30">
+					<e:Image id="icon_3" width="80" height="80" y="0" source="resource/assets/image/item_single/ui_icon_item_4203.png" x="0"/>
+					<e:Label id="count_3" text="99999" size="18" touchEnabled="false" stroke="2" textAlign="right" anchorOffsetX="0" width="71" scaleX="1" scaleY="1" horizontalCenter="1.5" verticalCenter="28"/>
+				</e:Group>
+				<e:Group x="40" y="40">
+					<e:Image id="icon_4" width="80" height="80" y="0" source="resource/assets/image/item_single/ui_icon_item_4203.png" x="0"/>
+					<e:Label id="count_4" text="99999" size="18" touchEnabled="false" stroke="2" textAlign="right" anchorOffsetX="0" width="71" scaleX="1" scaleY="1" horizontalCenter="1.5" verticalCenter="28"/>
+				</e:Group>
+				<e:Group x="50" y="50">
+					<e:Image id="icon_5" width="80" height="80" y="0" source="resource/assets/image/item_single/ui_icon_item_4203.png" x="0"/>
+					<e:Label id="count_5" text="99999" size="18" touchEnabled="false" stroke="2" textAlign="right" anchorOffsetX="0" width="71" scaleX="1" scaleY="1" horizontalCenter="1.5" verticalCenter="28"/>
+				</e:Group>
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" gap="13"/>
+				</e:layout>
+			</e:Group>
+			<e:List id="itemList" width="543.94" height="80" x="59.91" y="277" anchorOffsetX="0" itemRendererSkinName="ItemSkin2">
+				<e:layout>
+					<e:HorizontalLayout gap="13" horizontalAlign="left" verticalAlign="middle"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object aa="null"/>
+						<e:Object aa="null"/>
+						<e:Object aa="null"/>
+						<e:Object aa="null"/>
+						<e:Object aa="null"/>
+						<e:Object aa="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Group>
+		<e:Button id="btn" label="立即购买" y="595.43" icon="ui_xn_bt_lqjl" x="257" skinName="BtnN2Skin">
+		</e:Button>
+	</e:Group>
+</e:Skin>

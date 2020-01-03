@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AntiAddictionSkin" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="realName_01_png" left="0" top="0"/>
+	<e:Button id="nextTimeBtn" label="" verticalCenter="240.5" horizontalCenter="-102.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="realName_04_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="submitBtn" label="" verticalCenter="239.5" horizontalCenter="99.5" x="10" y="10">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="realName_05_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="nameImg" source="realName_02_png" verticalCenter="93.5" horizontalCenter="-6.5" x="10" y="10"/>
+	<e:Image id="idNumImg" source="realName_03_png" x="136" y="444"/>
+	<e:EditableText id="nameEditable" text="姓名" anchorOffsetX="0" textColor="0x494949" size="20" fontFamily="Microsoft YaHei" height="20" horizontalCenter="-6.5" verticalCenter="92.5" restrict="^0-9"/>
+	<e:EditableText id="idNumEditable" text="0123456789012345678" anchorOffsetX="0" textColor="0x494949" size="20" fontFamily="Microsoft YaHei" horizontalCenter="0.5" verticalCenter="162.5" height="20" inputType="tel" restrict="x0-9"/>
+</e:Skin>

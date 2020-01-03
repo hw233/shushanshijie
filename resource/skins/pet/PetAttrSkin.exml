@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetAttrSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16294836fbc" visible="false"/>
+	<ns1:CommonDialog id="commonDialog" verticalCenter="-54.5" height="839.12" anchorOffsetY="0" x="0" skinName="CommonDialog2Skin" title="详细属性"/>
+	<e:Image y="205" source="ui_bm_jsbg" horizontalCenter="0"/>
+    <e:Image y="643" horizontalCenter="0" source="ui_bm_fengexian" width="496"/>
+	<e:Group width="627" height="200" y="659" horizontalCenter="0">
+		<e:Group width="100%">
+			<e:Image source="ui_bm_title1" horizontalCenter="0"/>
+			<e:Label text="伙伴属性" y="4" style="l_brown_2" horizontalCenter="0" size="22"/>
+			<e:Label id="levelAttr" text="攻击" y="49" horizontalCenter="0" size="22"/>
+		</e:Group>
+		<e:Group width="100%" x="10" y="10">
+			<e:Image source="ui_bm_title1" horizontalCenter="0.5"/>
+			<e:Label text="资质属性" y="4" style="l_brown_2" horizontalCenter="0" size="22"/>
+			<e:Label id="zizhiAttr" text="攻击" y="49" horizontalCenter="0" size="22"/>
+		</e:Group>
+		<e:Group width="100%" x="20" y="20" visible="false">
+			<e:Image source="ui_bm_title1" horizontalCenter="0.5"/>
+			<e:Label text="飞升属性" y="4" style="l_brown_2" horizontalCenter="0" size="22"/>
+			<e:Label id="feisAttr" text="攻击" y="49" horizontalCenter="0" size="22"/>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="18"/>
+		</e:layout>
+	</e:Group>
+	<ns1:PetShowPanel width="0" height="0" y="563" horizontalCenter="0" id="showPanel"/>
+	<e:Image x="513" y="418" anchorOffsetX="0" anchorOffsetY="0" source="ui_zuoqidengjibg" scale9Grid="4,39,28,38"/>
+	<e:Label id="lbLev" text="20" x="506" y="406" size="20" lineSpacing="8" anchorOffsetY="0" textAlign="center" anchorOffsetX="0" width="50" height="139" verticalAlign="middle" textColor="0xf9f8f7"/>
+	<e:Image id="wuxingImg" x="504" y="350" source="ui_bm_huo"/>
+	<ns1:PowerLabel id="powerLabel" y="233" skinName="PowerLabel2Skin" horizontalCenter="0"/>
+	<e:Component id="lbName" skinName="PetNameSkin" y="592" scaleX="1" scaleY="1" horizontalCenter="0"/>
+</e:Skin>
